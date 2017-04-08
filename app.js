@@ -50,8 +50,6 @@ function saveQuestion() {
         li.appendChild(button)
         
         resetField()
-
-        console.log(questionArray)
     }
     
 }
@@ -143,8 +141,7 @@ function startQuiz() {
     
     questionCounter = 0
     generateFlashcards()
-    
-    console.log(flashcardArray)
+
     }
 }
 
