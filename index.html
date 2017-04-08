@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>flashcard app</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+      
+      <h1>flashcard app</h1>
+      <div id="questionMaking">
+            <form>
+                <span>Question:</span> <input type="text" placeholder="enter a question" id="questionEntry"><br>
+                <span>Hint:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="enter a hint *optional" id="hintEntry"><br><br>
+                <input type="button" class="button" value="save question" onclick="saveQuestion()">
+            </form>
+
+
+        <h3>Question List</h3>  
+        <ol id="questionList"></ol>
+          
+            <input type="button" class="button" value="start flashcards" id="startButton" onclick="startQuiz()">
+          
+            <div class="menu">
+                <input type="button" class="button" value="save questions" id="saveQuestions" onclick="saveQuestions()" style="display: inline;">
+                <input type="button" class="button" value="load questions" id="loadQuestions" onclick="loadQuestions()" style="display: inline;">
+                <input type="button" class="button" value="delete all questions" id="deleteAll" onclick="deleteAll()" style="display: inline;">
+            </div>
+      </div>
+      
+      <div id="flashcards" style="display: none;">
+          <h3 id="question"></h3>
+          <br>
+          <input type="button" class="button" value="show hint" id="showHint" onclick="showHint()" style="display: inline;">
+          <h4 id="hint" style="display: none"></h4>
+          <br><br>
+          <input type="button" class="button" value="next question" id="nextQuestion" onclick="nextQuestion()" style="display: inline;">
+          <br>
+          <p id="questionsRemaining"></p>
+          
+          <div class="menu">
+                <input type="button" class="button" value="end flashcards" id="endQuiz" onclick="endQuiz()" style="display: none;"> 
+          </div>
+      </div>
+      
+                 
+      
+      
+      
+    <script src="app.js"></script>
+  </body>
+</html>

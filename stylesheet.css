@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+h1 {
+    font-size: rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+form {
+    text-align: left;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+span {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+}
+
+#questionEntry, #hintEntry {
+    width: 35%;
+}
+
+#questionMaking {
+    margin-left: 4rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    background-color: lightblue;
+    border-radius: 25px;
+    max-width: 70%;
+}
+
+#flashcards {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: lightblue;
+    border-radius: 25px;
+    max-width: 70%;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    padding-left: 4rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    padding-left: 4rem;
+}
+
+ol {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    margin-left: 4rem;
+    border: 2px solid aliceblue;
+    width: 80%;
+}
+
+ol li:nth-child(even) {
+  background-color: aliceblue;
+}
+
+input#startButton {
+    margin-left: 4rem;
+}
+
+input#showHint {
+    margin-left: 4rem;
+}
+
+input#nextQuestion {
+    margin-left: 4rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    margin-left: 4rem;
+}
+
+.menu {
+    padding: 1rem 0.1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.button {
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: deepskyblue;
+    border: 2px solid lightskyblue;
+}
